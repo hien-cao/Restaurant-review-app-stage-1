@@ -13,11 +13,9 @@ The project is about to give the restaurant review app a responsive design , mak
 
 ## References
 
-[Leaflet.js]
-(https://leafletjs.com/)
+[Leaflet.js](https://leafletjs.com/)
 
-[mapbox] 
-(https://www.mapbox.com/)
+[mapbox](https://www.mapbox.com/)
 
 [ServiceWorker](https://developers.google.com/web/fundamentals/primers/service-workers/)
 
