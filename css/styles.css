@@ -25,7 +25,7 @@ a {
 }
 a:hover, a:focus {
 	color: #3397db;
-	text-decoration: none;
+  text-decoration: none;
 }
 a img{
 	border: none 0px #fff;
