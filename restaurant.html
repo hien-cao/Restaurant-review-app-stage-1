@@ -12,19 +12,19 @@
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.1/dist/leaflet.css" integrity="sha512-Rksm5RenBEKSKFjgI3a41vrjkw4EVPlJ3+OiI65vTjIdo9brlAacEuKOiQ5OFh7cOI1bkDwLqdLw3Zg0cRJAAQ==" crossorigin=""/>
   <title>Restaurant Info</title>
 </head>
-
 <body class="inside">
   <!-- Beginning header -->
   <header>
+    <!-- Skip Link -->
+    <a href="#restaurant-name" class="skip-link">Skip map section to restaurant information</a>
     <!-- Beginning nav -->
     <nav>
       <h1><a href="/" tabindex="0" aria-label="Restaurant review">Restaurant Reviews</a></h1>
     </nav>
     <!-- Beginning breadcrumb -->
-    <ul id="breadcrumb" aria-label="Navigation for breadcrumb">
+    <ul id="breadcrumb" role="navigation" aria-label="Breadcrumb">
       <li><a href="/">Home</a></li>
     </ul>
-    
     <!-- End breadcrumb -->
     <!-- End nav -->
   </header>
@@ -34,7 +34,7 @@
   <main id="maincontent">
     <!-- Beginning map -->
     <section id="map-container">
-      <div id="map" aria-role="appilcation" aria-label="map showing location of selected restaurants"></div>
+      <div id="map" role="appilcation" aria-label="map showing location of selected restaurants"></div>
     </section>
     <!-- End map -->
     <!-- Beginning restaurant -->

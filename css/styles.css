@@ -52,6 +52,19 @@ article, aside, canvas, details, figcaption, figure, footer, header, hgroup, men
 }
 
 /* ====================== Navigation ====================== */
+.skip-link {
+  position: absolute;
+  top: -40px;
+  left: 0;
+  background-color: #fff;
+  color: #ff0000 !important;
+  padding: 8px;
+  z-index: 100;
+}
+.skip-link:focus {
+  top: 0;
+  outline: 0 !important;
+}
 nav {
   display: flex;
   flex-direction: column;
@@ -176,7 +189,7 @@ nav h1 a {
   min-height: 248px;
   min-width: 100%;
 }
-#restaurants-list li h1 {
+#restaurants-list li h2 {
   color: #f18200;
   font-family: Arial,sans-serif;
   font-size: 14pt;
@@ -204,6 +217,19 @@ nav h1 a {
 }
 
 /* ====================== Restaurant Details ====================== */
+/* .inside .skip-link {
+  position: absolute;
+  top: -40px;
+  left: 0;
+  background-color: #fff;
+  color: #ff0000 !important;
+  padding: 8px;
+  z-index: 100;
+}
+.inside .skip-link:focus {
+  top: 0;
+  outline: 0 !important;
+} */
 .inside header {
   position: fixed;
   top: 0;
